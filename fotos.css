@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kadam Thmor Pro', sans-serif;
+}
+.li:hover{
+    color: red;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://cdn.europosters.eu/image/hp/66923.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+
+.nome {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.foto1 {
+    width: 270px;
+    height: 380px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/3/38/The_Batman_poster.jpg');
+    border-radius: 5px;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
+.caracteristicas {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    margin-top: 5px;
+    margin-left: 380px;
+}
+
+.idade {
+    width: 40px;
+    height: 35px;
+    background-color: yellow;
+    color: white;
+    font-size: 30px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid yellow;
+    border-radius: 5px;
+}
+
+.genero {
+    width: 162px;
+    height: 31px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 25px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid white;
+    border-radius: 5px;
+
+}
+
+.tempo {
+    width: 88px;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 22px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'kadam Thmor Pro', sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagens-filme-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.filme-banner {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.filme {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.banner-1 {
+    background-image: url('https://t.ctcdn.com.br/MB-ZBxbrQYN1bd2XCpXdy-eeKw4=/647x816:4016x2714/512x288/smart/filters:format(webp)/i555388.jpeg');
+}
+
+.banner-2 {
+    background-image: url('https://i1.wp.com/dicasgeeks.com.br/wp-content/uploads/2022/01/batman-mulher-gato-1024x683.jpeg');
+}
+
+.banner-3 {
+    background-image: url('https://www.cinefacts.it/foto/h!the_batman_leak_cover_cinefacts__1_.jpeg');
+}
+
+.banner-4 {
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2022/02/Matt-Reeves-on-The-Batman-Set-1200x900.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://br.paipee.com/wp-content/uploads/2021/12/i518499.jpeg');
+}
+
+.banner-6 {
+    background-image: url('https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2022/01/27/robert-pattinson-en-the-batman.jpeg');
+}
+
+.banner-7 {
+    background-image: url('https://uploads.jovemnerd.com.br/wp-content/uploads/2022/03/batman-site-rata-alada.jpg');
+}
+
+.banner-8 {
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2022/01/batman-enigma-2591283.jpg?itok=KYGulAMF');
+}

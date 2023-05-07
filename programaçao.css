@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kadam Thmor Pro', sans-serif;
+}
+.li:hover{
+    color: red;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://cdn.europosters.eu/image/hp/66923.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+}
+
+.nome {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.foto1 {
+    width: 270px;
+    height: 380px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/3/38/The_Batman_poster.jpg');
+    border-radius: 5px;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
+.caracteristicas {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    margin-top: 5px;
+    margin-left: 380px;
+}
+
+.idade {
+    width: 40px;
+    height: 35px;
+    background-color: yellow;
+    color: white;
+    font-size: 30px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid yellow;
+    border-radius: 5px;
+}
+
+.genero {
+    width: 162px;
+    height: 31px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 25px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid white;
+    border-radius: 5px;
+
+}
+
+.tempo {
+    width: 88px;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 22px;
+    font-family: 'kadam Thmor Pro', sans-serif;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.programaçao-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    padding-top: 90px;
+}
+
+.programaçao-content{
+    width: 50%;
+    margin-left: 60px;
+}
+
+.programaçao{
+    width: 90%;
+    display: block;
+}
+
+.data-card{
+    width: 170px;
+    height: 70px;
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 99, 99, 0.205);
+    border-radius: 5px;
+}
+
+.cards-info{
+    width: 100%;
+    display: block;
+    background-color:rgba(99, 99, 99, 0.205);
+}
+
+.top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(99, 99, 99, 0.205);
+}
+
+p{
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 5px;
+}
+
+.button{
+    width: 165px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    margin: 20px;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+}
+
+.info{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px #fff;
+}
+
+.inicio{
+    width: 5px;
+    height: 70px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-left: -2px;
+    margin-bottom: 5px;
+}
+
+.sala{
+    font-size: 15px;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div{
+    width: 1px;
+    height: 42px;
+    background-color:#fff;
+}
+
+.horario{
+    width: 60px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.img{
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 3px;
+}
+
+.lingua{
+    width: 35px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'kadam Thmor Pro', sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
